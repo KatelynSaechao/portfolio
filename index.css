@@ -132,6 +132,7 @@ h3 {
     line-height: 1;
     font-size: var(--font-size-huge);
     font-weight: 400;
+    color: var(--white)
 }
 
 @media(max-width: 900px) {
