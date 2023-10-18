@@ -38,6 +38,7 @@
     --purple: #a264c5;
     --black: #000;
     --white-1: #f0e9f2;
+    --dark-purple: #8B43B3;
 
 
     --container-max-width: 1180px;
@@ -424,6 +425,7 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
     font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: var(--font-size-medium);
+    color: var(--black);
 }
 
 @media(max-width: 500px) {
