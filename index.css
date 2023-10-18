@@ -125,7 +125,7 @@ h3 {
     font-family: 'Helvetica Neue Bold', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--black);
+    color: var(--white);
 }
 
 .heading-primary {
