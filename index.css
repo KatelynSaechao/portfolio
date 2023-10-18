@@ -423,7 +423,8 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
     font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: var(--font-size-medium);
-    color: var(--black);
+    color: var(--white);
+    text-align: center;
 }
 
 @media(max-width: 500px) {
