@@ -410,6 +410,7 @@ body:not(.user-is-tabbing) a:focus {
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+    color: var(--white);
 }
 
 .header__text {
@@ -424,7 +425,6 @@ body:not(.user-is-tabbing) a:focus {
     font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: var(--font-size-medium);
     color: var(--white);
-    text-align: center;
 }
 
 @media(max-width: 500px) {
