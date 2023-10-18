@@ -308,7 +308,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--purple;
+    background-color: var(--purple);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -422,7 +422,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text p {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Helvetica Neue Bold', sans-serif;
     font-size: var(--font-size-medium);
 }
 
