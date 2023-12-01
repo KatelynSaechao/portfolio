@@ -41,3 +41,24 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+scssCopy codevar currentSlide = 0; 
+var slides = document.getElementsByClassName("carousel-slide"); 
+ 
+function showSlide(n) { 
+  for (var i = 0; i < slides.length; i++) { 
+    slides[i].style.display = "none"; 
+  } 
+  slides[n].style.display = "block"; 
+  currentSlide = n; 
+} 
+ 
+function nextSlide() { 
+  if (currentSlide == slides.length - 1) { 
+    showSlide(0); 
+  } else { 
+    showSlide(currentSlide + 1); 
+  } 
+} 
+ 
+setInterval(nextSlide, 3000); 
